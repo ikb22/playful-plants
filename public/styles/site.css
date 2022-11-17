@@ -1,0 +1,299 @@
+html {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+}
+
+header{
+    background-color: #82b982;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    height: 150px;
+    padding: 15px;
+    margin-bottom: 5px;
+}
+
+.subheader{
+    font-size: 22px;
+    margin-top: 0px;
+}
+
+h1{
+    font-size: 36px;
+    margin-bottom: 5px;
+}
+
+h2{
+    font-weight: normal;
+    font-size: 20px;
+}
+
+.flex{
+    display: flex;
+    flex-direction: row;
+}
+
+.flex aside {
+    width: 30%;
+    margin: 10px;
+    margin-top: 30px;
+}
+
+.flex main{
+    width: 70%;
+    border-left-style: solid;
+    border-left-width: 1px;
+    margin: 10px;
+    padding-left: 30px;
+}
+
+.no-bottom-margin{
+    margin-bottom: 0px;
+}
+
+.feedback{
+    color: red;
+    margin-bottom: 0px;
+}
+
+.align-right{
+    text-align: right;
+    margin-right: 50px;
+    margin-top: 20px;
+}
+
+.label-input{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 8px;
+}
+
+.hidden{
+    display: none;
+}
+
+.plant{
+    background-color: #ffffff;
+    margin: 10px;
+    padding: 10px;
+}
+
+.plant:nth-child(even) {
+    background-color: #cccccc;
+}
+
+.filter{
+    padding-bottom: 50px;
+    border-bottom-style: solid;
+    border-width: 1px;
+}
+
+.filter-feedback, .sort-feedback{
+    margin-left: 20px;
+}
+
+.sort{
+    text-align: right;
+    margin-bottom: 20px;
+    margin-right: 10px;
+}
+
+.checkbox{
+    margin-top: 0px;
+}
+
+.underline{
+    text-decoration: underline;
+    font-style: normal;
+}
+
+.label-input{
+    gap: 5px;
+}
+
+.login{
+    text-decoration: none;
+    color: black;
+    border-style: solid;
+    border-width: 2px;
+    background-color: white;
+    width: 100px;
+    padding: 5px;
+    text-align: center;
+}
+.align-right{
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    margin-right: 10px;
+}
+.login-form{
+    margin-top: 30px;
+    background-color: #013220;
+    margin-left: 25%;
+    margin-right: 25%;
+    padding: 30px;
+    color: white;
+}
+.login-center{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.center{
+    text-align: center;
+}
+.center{
+    list-style: none;
+}
+.edit-delete{
+    text-align: right;
+    text-decoration: underline;
+    color: black;
+}
+.edit-delete a{
+    color: black;
+    margin-left: 10px;
+}
+
+.photo-gallery{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 0;
+}
+
+.title-picture{
+    margin: 10px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    margin: 0 auto;
+    padding: 0px;
+    margin-bottom: 10px;
+}
+
+h2 a{
+    color: black;
+    text-decoration: none;
+}
+
+h2 a:visited{
+    color: black;
+}
+
+a{
+    color: black;
+}
+
+a:visited{
+    color: black;
+}
+
+h3{
+    font-weight: normal;
+    font-size: 18px;
+    font-style: italic;
+}
+
+.details h3{
+    margin-top: 0px;
+}
+.details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+figcaption{
+    font-size: 10px;
+}
+
+.detail-image{
+    margin: 0 auto;
+}
+
+.tags{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.tag{
+    text-align: center;
+    text-decoration: underline;
+    margin: 7px;
+}
+
+.home-filter{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 15px;
+}
+.tag-title{
+    text-align: center;
+    font-size: 24px;
+}
+.confirmation{
+    font-weight: bold;
+    font-size: 16px;
+}
+.center{
+    text-align: center;
+}
+.center-form{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #013220;
+    margin-left: 30%;
+    margin-right: 30%;
+    padding: 10px;
+    color: white;
+}
+.delete-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #013220;
+    margin-left: 30%;
+    margin-right: 30%;
+    padding: 10px;
+    color: white;
+    text-align: center;
+    padding-bottom: 20px;
+}
+.edit{
+    color: orange;
+}
+.delete-buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 80px;
+}
+
+@media print {
+aside{
+    display: none;
+}
+
+.flex main{
+    margin: 10px;
+    margin-top: 0px;
+    padding: 10px;
+    border-left-style: none;
+    border-left-width: 0px;
+    width: 100%;
+}
+header{
+    margin-bottom: 0px;
+    height: 100px;
+}
+}
